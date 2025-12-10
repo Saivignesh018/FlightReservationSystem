@@ -33,3 +33,33 @@ A console-based Java application that simulates a real-world flight booking syst
 1. Clone the repository:
 ```bash
 git clone https://github.com/Saivignesh018/FlightReservationSystem.git
+
+2. Navigate into the project folder:
+
+cd FlightReservationSystem
+
+
+3. Build the project using Maven:
+
+mvn clean install
+
+
+4. Run the application:
+
+mvn exec:java -Dexec.mainClass="com.flight.reservation.Main"
+
+
+(Replace com.flight.reservation.Main with your actual main class package if different.)
+
+5. Run unit tests (optional):
+
+mvn test
+
+
+6. Use the console menu to:
+
+Search for flights by source, destination, and date.
+
+Book flights with seat availability validation.
+
+View all reservations.
