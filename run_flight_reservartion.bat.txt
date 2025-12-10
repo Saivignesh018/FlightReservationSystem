@@ -1,0 +1,12 @@
+@echo off
+REM Go to project folder
+cd "C:\Users\sai96\OneDrive\Desktop\Flight Reservation Systems"
+
+REM Build project and run tests
+"C:\Maven\bin\mvn.cmd" clean install
+"C:\Maven\bin\mvn.cmd" test
+
+REM Run your Main.java using the compiled classes
+java -cp target\classes com.flight.reservation.Main
+
+pause
